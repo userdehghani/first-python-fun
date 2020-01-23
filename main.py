@@ -30,10 +30,16 @@ except ValueError:
 if  input_number > 28 :
         
     print("oooo chedar bozorg shodi")
-
+    restart()
 elif input_number < 28 and input_number > 0 :
 
     print("khob pas hanoz javoon hasti")
+    restart()
+
+else :
+
+    print('ey sheytoon adad sahih manzoram [1,2,3,4,...] hast')
+    restart()
 
 
 
